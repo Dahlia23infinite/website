@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Technical Approach – AlexNet</title>
+</head>
+<body>
+  <h1>Technical Approach – AlexNet</h1>
+
+  <p>
+    In this project, I use <strong>AlexNet</strong>, a convolutional neural network with
+    5 convolutional layers and 3 fully connected layers, to classify images from my custom dataset.
+  </p>
+
+  <h2>Data Preprocessing</h2>
+  <ul>
+    <li>Input images resized to 224×224 pixels.</li>
+    <li>Normalized using ImageNet mean and standard deviation.</li>
+    <li>Train/validation split: (describe your split).</li>
+  </ul>
+
+  <h2>Model Architecture</h2>
+  <ul>
+    <li>Conv layers with ReLU and max pooling.</li>
+    <li>Final fully connected layer adapted to C classes (C = number of classes in my dataset).</li>
+  </ul>
+
+  <h2>Training Details</h2>
+  <ul>
+    <li>Framework: PyTorch.</li>
+    <li>Loss: CrossEntropyLoss.</li>
+    <li>Optimizer: (e.g., Adam or SGD with momentum).</li>
+    <li>Batch sizes tried: 16, 64, etc.</li>
+    <li>Learning rates tried: 0.001, 0.0001, etc.</li>
+  </ul>
+
+  <p><a href="index.html">Back to Home</a></p>
+</body>
+</html>
